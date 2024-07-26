@@ -1,4 +1,4 @@
-.h11 {
+.h11, .h1pizza, .dpizza, .ppizza, .ulpizza, .olpizza {
     text-align: center;
     background-color: aqua;
     color: aliceblue;
@@ -7,6 +7,7 @@
     padding: 10px;
     margin-bottom: 20px;
     margin-top: 30px;
+    border: 3px solid rgb(193, 90, 90);
 }
 .recipelist {
     box-sizing: border-box;
@@ -20,4 +21,29 @@
     border: 3px solid rgb(200, 81, 81);
     background-color: aliceblue;
     margin-left: -40px;
+}
+.pizzaimage {
+    width: 700px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+.dpizza, .ppizza {
+    background-color: white;
+    color: black;
+    width: 100%;
+    margin-bottom: -20px;
+    margin-top: 15px;
+}
+.ulpizza, .ipizza, .olpizza, .spizza {
+    margin-left: 150px;
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+
+}
+.ipizza, .spizza {
+    margin-bottom: -30px;
 }
